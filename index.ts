@@ -2,8 +2,8 @@
 //shabang
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
-    { message : "enter firstNumber", type :"number",name: "firstNumber"},
-    { message : "enter secondNumber", type :"number",name: "secondNumber"},
+    { message : "enter your firstNumber", type :"number",name: "firstNumber"},
+    { message : "enter your secondNumber", type :"number",name: "secondNumber"},
     {
         message : "Select one off the operators to perform operation",
         type : "list",
@@ -27,3 +27,5 @@ const answer = await inquirer.prompt([
  }else {
     console.log("Please select valid operator")
  }
+
+ console.log("The End")
